@@ -1,0 +1,24 @@
+:root {
+  --brand: #f56600;
+  --sun: #ff7900;
+  --sun-soft: #fff2e5;
+  --brand-foreground: #fff;
+  --ink: #171717;
+  --headline: #171717;
+  --body: #5f6266;
+  --foreground: #5f6266;
+  --surface: #fff4ea;
+  --hairline: #ead8ca;
+  --border: #ead8ca;
+  --danger-soft: #fff4ea;
+  --shadow-soft: 0 6px 24px -12px #17171740;
+  --shadow-card: 0 10px 30px -18px #17171740;
+}
+#checkout h3 .text-sun { color: #000; }
+@media (hover: hover) {
+  .hover\:bg-brand-hover:hover { background-color: #e65e00; }
+}
+@keyframes pulse-cta {
+  0%,to { transform:scale(1); box-shadow:0 8px 24px -12px #ff790099; }
+  50% { transform:scale(1.025); box-shadow:0 14px 34px -10px #ff7900b3; }
+}
